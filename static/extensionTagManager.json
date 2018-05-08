@@ -1,0 +1,21 @@
+{
+    "name": "Google Tag Manager",
+    "title": "Google Tag Manager",
+    "description": "Google Tag Manager",
+    "services": [
+        "Customizer"
+    ],
+    "extensions": [
+        {
+            "name": "Extension",
+            "type": "com.ibm.customizer.ui",
+            "payload": {
+                "include-files": [
+                    "static/gfamilia-googleTagManager.js"
+                ]
+            },
+            "path": "global",
+            "application": "Google Tag Manager"
+        }
+    ]
+}
