@@ -12,7 +12,10 @@
             "payload": {
                 "include-files": [
                     "static/gfamilia-googleTagManager.js"
-                ]
+                ],
+                "include-repo": {
+                    "name": "collaboration"
+                }
             },
             "path": "global",
             "application": "Google Tag Manager"
