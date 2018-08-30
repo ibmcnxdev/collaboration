@@ -6,7 +6,7 @@
 //
 if(typeof(dojo) != "undefined") {
     dojo.place(
-        "<link rel=\"stylesheet\" type=\"text/css\" href=\"/files/customizer/samples/profiles/profilesCustomization.css?repoName=customizer\"></link>",
+        "<link rel=\"stylesheet\" type=\"text/css\" href=\"static/profiles/profilesCustomization.css?repoName=grupofamilia\"></link>",
         dojo.doc.head,
         "last"
     );
