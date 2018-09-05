@@ -1,6 +1,6 @@
 #_profilesViewWelcome_div {
   display: none;
-} 
+}
 
 .lotusWrapper {
   display: none
@@ -22,7 +22,7 @@
 
 .lotusui .lotusColLeft .lconnProfilePortrait {
   width: 138px;
-  border: 5px solid #0b7180;
+  border: 5px solid #c2107a;
   margin-top: -20px;
 }
 
@@ -243,7 +243,7 @@
   width: 100%;
   height: 192px;
   display: block;
-  background: url('');
+  background: url('https://s3.amazonaws.com/familia.comunicaciones/Intranet/notas/2018/Agosto/27/Banner-03.png');
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
