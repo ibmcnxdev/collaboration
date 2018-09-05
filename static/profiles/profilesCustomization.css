@@ -22,7 +22,6 @@
 
 .lotusui .lotusColLeft .lconnProfilePortrait {
   width: 138px;
-  border: 5px solid #c2107a;
   margin-top: -20px;
 }
 
@@ -363,10 +362,11 @@
 #_profilesMyViewWelcome_div {
   display: none;
 }
-
+/* Estilos para foto de perfil*/
 .lotusui .lotusColLeft .lconnProfilePortrait {
   height: 138px;
   width: 138px;
+  border: 5px solid #c2107a;
 }
 
 #profilePaneLeft .lotusSection2 #editProfileButtonDiv {
