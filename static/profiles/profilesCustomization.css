@@ -266,7 +266,8 @@
 }
 
 #businessCardActions {
-  margin-top: 105px
+  margin-top: 105px;
+  width: 100%;
 }
 
 .lotusActionBar{
@@ -284,6 +285,8 @@
   background-clip: content-box, border-box !important;
   position: relative;
   box-shadow: inset 0px 0px 0px 50px white;
+
+    left: 20%;
 }
 .lotusui30 .lotusBtn:focus, .lotusui30 .lotusBtn:hover {
     box-shadow: 0 0 0 20px white inset;
@@ -309,10 +312,10 @@
   width: 69%;
   float: right;
 }
-#businessCardActions button{
+/*#businessCardActions button{
   position: relative;
   float: left;
-}
+}*/
 #lconn_tabsWidget1_CenterTabsDiv {
   top: 245px
 }
@@ -379,15 +382,15 @@
 }
 /*Ocultar btn de perfil */
 #btn_actn__personCardSendEMail,#btn_actn__personCardChat,#btn_actn__personCardChat,#btn_actn__personCardAddAsMyColleagues {display: none;}
-/*posicion para los botones */
-#btn_actn__label_following_follow{left: 37%;}
+/*posicion para los botones
+#btn_actn__label_following_follow{left: 0%;}
 
-#btn_actn__personCardShareFile{left: 38%}
+#btn_actn__personCardShareFile{left: 0%}
 
-#moreActionsBtn_lconn_profiles_actionBar_ActionBar_0 {left: 39%;}
+#moreActionsBtn_lconn_profiles_actionBar_ActionBar_0 {left: 0%;}
 
-#btn_actn__label_following_unfollow{left: 37%;}
+#btn_actn__label_following_unfollow{left: 0%;}
 
-#btn_actn__personCardDownloadVCard {left: 40%;}
+#btn_actn__personCardDownloadVCard {left: 0%;}
 
-#btn_1491511212598_27548 {left: 19%;}
+#btn_1491511212598_27548 {left: 0%;}*/
