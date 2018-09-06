@@ -310,7 +310,8 @@
   float: right;
 }
 #businessCardActions button{
-  left: 36%;
+  position: relative;
+  float: left;
 }
 #lconn_tabsWidget1_CenterTabsDiv {
   top: 245px
@@ -378,3 +379,9 @@
 }
 /*Ocultar btn de perfil */
 #btn_actn__personCardSendEMail,#btn_actn__personCardChat,#btn_actn__personCardChat {display: none;}
+
+#btn_actn__label_following_follow{left: 40%;}
+
+#btn_actn__personCardShareFile{left: 41%}
+
+#moreActionsBtn_lconn_profiles_actionBar_ActionBar_0 {left: 42%;}
