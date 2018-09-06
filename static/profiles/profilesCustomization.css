@@ -379,7 +379,7 @@
 }
 /*Ocultar btn de perfil */
 #btn_actn__personCardSendEMail,#btn_actn__personCardChat,#btn_actn__personCardChat,#btn_actn__personCardAddAsMyColleagues {display: none;}
-
+/*posicion para los botones */
 #btn_actn__label_following_follow{left: 37%;}
 
 #btn_actn__personCardShareFile{left: 38%}
