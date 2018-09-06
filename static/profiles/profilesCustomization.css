@@ -378,10 +378,12 @@
   z-index: 5;
 }
 /*Ocultar btn de perfil */
-#btn_actn__personCardSendEMail,#btn_actn__personCardChat,#btn_actn__personCardChat {display: none;}
+#btn_actn__personCardSendEMail,#btn_actn__personCardChat,#btn_actn__personCardChat,#btn_actn__personCardAddAsMyColleagues {display: none;}
 
-#btn_actn__label_following_follow{left: 40%;}
+#btn_actn__label_following_follow{left: 37%;}
 
-#btn_actn__personCardShareFile{left: 41%}
+#btn_actn__personCardShareFile{left: 38%}
 
-#moreActionsBtn_lconn_profiles_actionBar_ActionBar_0 {left: 42%;}
+#moreActionsBtn_lconn_profiles_actionBar_ActionBar_0 {left: 39%;}
+
+#btn_actn__label_following_unfollow{left: 37%;}
