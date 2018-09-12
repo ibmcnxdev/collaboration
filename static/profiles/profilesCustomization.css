@@ -46,6 +46,7 @@
   border: 1px solid #e8e8e8;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
   background: white;
+  margin-top: 122px;
 }
 
 .lotusWidget2 {
@@ -230,7 +231,7 @@
 
 /** New Menu section **/
 .lotusColLeft {
-    margin-top: 185px
+    margin-top: 200px
 }
 
 .lotusColRight {
@@ -382,15 +383,8 @@
 }
 /*Ocultar btn de perfil */
 #btn_actn__personCardSendEMail,#btn_actn__personCardChat,#btn_actn__personCardChat,#btn_actn__personCardAddAsMyColleagues {display: none;}
-/*posicion para los botones
-#btn_actn__label_following_follow{left: 0%;}
 
-#btn_actn__personCardShareFile{left: 0%}
-
-#moreActionsBtn_lconn_profiles_actionBar_ActionBar_0 {left: 0%;}
-
-#btn_actn__label_following_unfollow{left: 0%;}
-
-#btn_actn__personCardDownloadVCard {left: 0%;}
-
-#btn_1491511212598_27548 {left: 0%;}*/
+.lconn_directoryPage {
+  margin-top: 188px;
+  margin-left: 202px;
+}
