@@ -22,7 +22,6 @@
 
 .lotusui .lotusColLeft .lconnProfilePortrait {
   width: 138px;
-  border: 5px solid #c2107a;
   margin-top: -20px;
 }
 
@@ -47,6 +46,7 @@
   border: 1px solid #e8e8e8;
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
   background: white;
+  margin-top: 122px;
 }
 
 .lotusWidget2 {
@@ -231,7 +231,7 @@
 
 /** New Menu section **/
 .lotusColLeft {
-    margin-top: 185px
+    margin-top: 200px
 }
 
 .lotusColRight {
@@ -243,7 +243,7 @@
   width: 100%;
   height: 192px;
   display: block;
-  background: url('https://s3.amazonaws.com/familia.comunicaciones/Intranet/notas/2018/Agosto/27/Banner-03.png');
+  background: url('https://s3.amazonaws.com/familia.comunicaciones/Intranet/Juatos Somos más3.png');
   background-size: cover;
   background-repeat: no-repeat;
   top: 0;
@@ -253,6 +253,7 @@
   box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.1);
   border-left: 1px solid #ddd;
   border-right: 1px solid #ddd;
+  background-position: 0;
 }
 
 #profileHeader {
@@ -266,7 +267,8 @@
 }
 
 #businessCardActions {
-  margin-top: 105px
+  margin-top: 105px;
+  width: 100%;
 }
 
 .lotusActionBar{
@@ -284,6 +286,8 @@
   background-clip: content-box, border-box !important;
   position: relative;
   box-shadow: inset 0px 0px 0px 50px white;
+
+    left: 20%;
 }
 .lotusui30 .lotusBtn:focus, .lotusui30 .lotusBtn:hover {
     box-shadow: 0 0 0 20px white inset;
@@ -309,9 +313,10 @@
   width: 69%;
   float: right;
 }
-#businessCardActions button{
-
-}
+/*#businessCardActions button{
+  position: relative;
+  float: left;
+}*/
 #lconn_tabsWidget1_CenterTabsDiv {
   top: 245px
 }
@@ -363,10 +368,11 @@
 #_profilesMyViewWelcome_div {
   display: none;
 }
-
+/* Estilos para foto de perfil*/
 .lotusui .lotusColLeft .lconnProfilePortrait {
   height: 138px;
   width: 138px;
+  border: 5px solid #c2107a;
 }
 
 #profilePaneLeft .lotusSection2 #editProfileButtonDiv {
@@ -375,6 +381,7 @@
   right: -350px;
   z-index: 5;
 }
+
 [title="Descargar vCard"]{
   display: none !important;
 }
@@ -382,3 +389,11 @@
 .lotusui30 .lconn_directoryPage {
     margin-top: -10px !important;
   }
+
+/*Ocultar btn de perfil */
+#btn_actn__personCardSendEMail,#btn_actn__personCardChat,#btn_actn__personCardChat,#btn_actn__personCardAddAsMyColleagues {display: none;}
+
+.lconn_directoryPage {
+  margin-top: 188px;
+  margin-left: 202px;
+}
