@@ -375,10 +375,10 @@
   right: -350px;
   z-index: 5;
 }
-[title="Descargar vCard"]{
+[title="vCard"]{
   display: none !important;
 }
 
-.lotusui30 .lconn_directoryPage {
+.lotusui30 .lconn_directoryPage{
     margin-top: -10px !important;
-  }
+}
